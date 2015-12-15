@@ -1,0 +1,106 @@
+.header{
+    background-color: red;
+    height: 100px;
+}
+.body{
+    background-color: green;
+    height: 500px;
+}
+.footer{
+    background-color: brown;
+    height: 60px;
+}
+/*style for 2*/
+
+html{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.body .right{
+    float: right;
+    background-color: moccasin;
+    height: 500px;
+    width: 30%;
+}
+.body .rightBox{
+    margin-left: 25%;
+    margin-top: 20%;
+    width: 75%;
+    height: 300px;
+    background-color: #808080;
+}
+.body .left{
+    float: left;
+    background-color: deeppink;
+    height: 500px;
+    width: 70%;
+}
+.body .right .content{
+    background-color: #f2dede;
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 75%;
+    height: 200px;
+    /*margin-top: 30%;*/
+
+}
+.body .right .content .prompter button{
+    width: 80%;
+    border: 5px solid #000000;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.clr{
+    height: 20px;
+}
+.body .right .content input{
+    width: 98%;
+    height: 25px;
+    margin-top: 4px;
+}
+.body .right .content button{
+    /*clear: both;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 40px;*/
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 43%;
+}
+.right .signUp label{
+    float: left;
+    clear: left;
+    margin-top: 3%;
+    text-align: right;
+    width: 50%;
+    }
+.right .signUp input,select{
+    float: right;
+    width: 40%;
+    margin-top: 2%;
+}
+
+.right .signUp button{
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: block;
+    width: 30%;
+    }
+.right .signUp form fieldset{
+
+}
+.previous button{
+    float: right;
+    /*margin-top: 480px;*/
+}
+.rightBox .content .signIn .previous button{
+    float: right;
+    width: 55%;
+    /*margin-top: -1%;*/
+}
+.rightBox .content .signIn  button{
+    margin-top: 3%;
+}
