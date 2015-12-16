@@ -1,0 +1,35 @@
+.container {
+}
+.header{
+    background-color: aqua;
+    height: 10em;
+}
+.slider{
+    background-color: grey;
+    height: 20em;
+}
+.note{
+    background-color: burlywood;
+    width: 40em;
+    height: 20em;
+    margin-left: 17%;
+}
+.enter{
+    background-color: darkmagenta;
+    height:5em;
+    width: 40em;
+    margin-left: 17%;
+
+}
+#signin{
+}
+#signup{
+    float: right;
+}
+.footer{
+    background-color: mediumseagreen;
+    height: 5em;
+}
+.signIn{
+    text-align: center;
+}
