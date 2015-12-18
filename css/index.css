@@ -8,28 +8,70 @@
     background-color: grey;
     height: 20em;
 }
-.note{
-    background-color: burlywood;
-    width: 40em;
-    height: 20em;
-    margin-left: 17%;
+.Sign-In{
+    background-color: black;
+    width: 664px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 600px;
 }
-.enter{
-    background-color: darkmagenta;
-    height:5em;
-    width: 40em;
-    margin-left: 17%;
+#welcm{
+    text-align: center;
+    font-family:"Courier 10 Pitch";
+    font-size:5em;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+}
+.signinbutton{
+    margin-left: 160px;
+    margin-top: 0px;
 
 }
-#signin{
-}
-#signup{
-    float: right;
+.signinbutton input{
+    height: 3em;
+    width: 25em;
 }
 .footer{
     background-color: mediumseagreen;
     height: 5em;
 }
 .signIn{
+    text-align: center;
+}
+#contentinbutt1{
+    color: white;
+    margin-top: 35px;
+    margin-left: -5px;
+}
+#contentinbutt2{
+    float: right;
+    color: white;
+    margin-right:170px;
+    margin-top: -54px;
+
+}
+.clear{
+    height: 40%;
+}
+.opt{
+margin-left: 30%;
+}
+#admin{
+    width: 10em;
+   border: solid;
+    border-color: white;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+#voter{
+    border:solid;
+    color: white;
+    font-size: 150%;
+    width: 10em;
+    border-color: white;
     text-align: center;
 }
