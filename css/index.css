@@ -1,0 +1,375 @@
+
+/*styling for the banner*/
+.container-fluid.banner{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar.banner {
+    background-color: white;
+    border-radius: 0;
+    border-bottom:solid 1px #265a88;
+    padding: 0px 20px 0px 30px;
+    margin-bottom: 0px;
+    color: #265a88;
+}
+.navbar-brand{
+    font-size: 30px ;
+    font-family: "Segoe UI";
+    font-weight: bolder;
+    padding: 10px 5px 5px 5px;
+    margin-bottom: 0px;
+    z-index: 2;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+mar{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+.navbar-right.banner{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav.nav-justified.banner{
+    background-color: #265a88;
+}
+ul.nav.nav-pills.banner {
+    color: #265a88;
+    margin-bottom: 0px;
+    padding:0px 0px 0px 5px;
+}
+ul.nav.nav-pills.banner li{
+    color:#265a88;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+ul.nav.nav-pills.banner a{
+    padding: 15px 25px 15px 25px;
+    color: #265a88;
+    background: transparent;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+ul.nav.nav-pills.banner ul{
+    color:#265a88;
+    background-color: transparent;
+    padding:10px 5px 10px 5px;
+}
+ul.nav.nav-pills.banner li:hover{
+    border-radius: 5px;
+}
+ul.nav.nav-pills.banner a:hover{
+    color:white;
+    background: #265a88;
+}
+/*End of styling for banner*/
+
+/*styling for footer*/
+
+.navbar-static-bottom{
+    background-color: white;
+    padding: 5px;
+    color: #265a88;
+    font-size:15px;
+    font-weight: bolder;
+    text-align: center;
+    border-top:solid 1px #265a88;
+}
+.container-fluid.footer{
+    padding: 0;
+}
+/*end of styling for footer*/
+
+
+/*styling for the home page*/
+.main{
+    background-color: white;
+    margin-bottom: 0;
+}
+.row.home{
+    margin: 0px 1px 0px 1px;
+    background-color: white;
+    padding: 5px;
+}
+.bannerindex fieldset{
+    text-align: left;
+    border: solid 1px #265a88;
+    border-radius: 4px;
+    background: #265a88;
+    padding: 2px 2px 2px 5px;
+}
+#fullslide .glyphicon.glyphicon-circle-arrow-left{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    font-size: 40px;
+}
+#fullslide .glyphicon.glyphicon-circle-arrow-right{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    font-size: 40px;
+}
+#fullslide span.glyphicon-circle-arrow-left{
+    padding: 14px 7px;
+    border-radius: 10px;
+    opacity: 1;
+}
+#fullslide span.glyphicon-circle-arrow-right{
+    padding: 14px 7px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.navbar-right.banner span.glyphicon-circle-arrow-right{
+    padding:0;
+    margin: 0px 5px 0px 0px;
+    background-color: #244c66;
+}
+.navbar-right.banner span.glyphicon-log-in{
+    padding:0;
+    margin: 0px 5px 0px 0px;
+}
+.bannerindex{
+    padding-top: 5px;
+}
+.bannerindex button:hover {
+    box-shadow: 0px  0px 4px 2px rgba(0,0,0,0.25), 0px  0px 6px 5px rgba(0,0,0,0.2);
+}
+.bannerindex #logindiv button{
+    box-shadow: 0px  0px 4px 2px rgba(0,0,0,0.25), 0px  0px 6px 5px rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.bannerindex #logindiv button:hover{
+    box-shadow:  0px  0px 3px 4px rgba(0,0,0,0.3),0px  0px 5px 4px rgba(0,0,0,0.25);
+    background-color: #244c66;
+}
+.bannerindex button{
+    border-radius: 5px;
+    border: #265a88;
+    padding: 5px 10px 5px 10px;
+    margin-right: 5px;
+    background-color: #286090;
+    box-shadow: 0px  0px 3px 0px rgba(0,0,0,0.5), 0px  0px 6px 0px rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.bannerindex input[type=text],
+.bannerindex input[type=password]{
+    background-color: white;
+    opacity: 0.9;
+    color: #265a88;
+    font-weight: bold;
+    text-align: center;
+    margin: 3px 5px 5px 0px;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bannerindex input:focus,
+.bannerindex input:active{
+    background-color:#265a88;
+    color: white;
+}
+#signinform button{
+    width: 100%;
+}
+.Sign-In{
+    padding: 10%;
+    background-color: rgba(100,100,100,0.2);
+}
+.Sign-In fieldset{
+    background-color: white;
+    text-align: center;
+    height: 80%;
+    padding: 10px;
+    border: solid 2px rgba(100,100,100,0.3);
+    /*background: rgba(255, 250, 240,0.7);*/
+}
+#welcm{
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    font-size:50px;
+    font-weight: bold;
+    background-color:rgba(100,100,100,0.3);
+    padding: 1px;
+    color: #265a88;
+    width: 100%;
+}
+.Sign-In input[type=text]{
+    line-height: 30px;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(100,100,100,0.1);
+    color: black;
+    border-radius: 5px;
+}
+#admin{
+    width: 60%;
+    text-align: center;
+    height: 40%;
+    margin-bottom: 10%;
+    padding: 20px;
+    margin-left: 20%;
+    background-color:white;
+}
+#closepop{
+    width: 100%;
+    color:grey;
+    text-align: center;
+    border-bottom: solid grey 1px;
+}
+#popUpDiv {
+    position:absolute;
+    background-color:white;
+    padding: 10px 5px;
+    z-index: 9002;
+    border-radius: 5px;
+    color: black;
+    opacity: 0.95;
+    border: solid white 2px;
+}
+#voter{
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20%;
+    background-color:white;
+}
+#blanket {
+    background-color:#111;
+    opacity: 0.8;
+    position:absolute;
+    z-index: 9001;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+/*End of styling for homepage*/
+
+/*styling for admin signup page*/
+.transition, .electoralform button, .electoralform .question label, .electoralform .question input {
+    -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
+.electoralform {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    max-width: 700px;
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: rgba(100,100,100,0.1);
+    opacity: 0.95;
+    border: solid 1px #265a88;
+    margin: 40px 0;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.electoralform .adminsignupinput:first-of-type {
+    margin-top: 30px;
+}
+.electoralform button {
+    margin-top: 35px;
+    background-color: #265a88;
+    border: 1px solid #265a88;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+}
+.electoralform button:hover, form button:focus {
+    color: #265a88;
+    background-color: white;
+}
+.electoralform .adminsignupinput {
+    position: relative;
+    padding: 10px 0;
+    text-align: left;
+}
+.electoralform .adminsignupinput label {
+    transform-origin: left center;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 5px;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 2;
+    pointer-events: none;
+}
+.electoralform .adminsignupinput input {
+    appearance: none;
+    border: 1px solid #265a88;
+    line-height: 0;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+}
+.electoralform .adminsignupinput input:focus {
+    outline: none;
+    background: #265a88;
+    color: white;
+    margin-top: 30px;
+}
+.electoralform .adminsignupinput input:valid {
+    margin-top: 20px;
+}
+.electoralform .adminsignupinput input:focus ~ label {
+    -moz-transform: translate(0, -35px);
+    -ms-transform: translate(0, -35px);
+    -webkit-transform: translate(0, -35px);
+    transform: translate(0, -35px);
+}
+.electoralform .adminsignupinput input:valid ~ label {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -moz-transform: translate(0px, -35px) scale(1.0);
+    -ms-transform: translate(0px, -35px) scale(1.0);
+    -webkit-transform: translate(0px, -35px) scale(1.0);
+    transform: translate(0px, -35px) scale(1.0);
+}
+/*end of styling for admin signup page*/
+
+
+/*styling for new election pages*/
+.col-lg-12 .container{
+    min-height: 500px;
+}
+/*end of styling for new election pages*/
+.demon{
+    width: auto;
+    margin-top: 15px;
+}
+#dem{
+    float:left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
